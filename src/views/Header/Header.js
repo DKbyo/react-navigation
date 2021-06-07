@@ -8,9 +8,10 @@ import {
   StyleSheet,
   View,
   ViewPropTypes,
+  SafeAreaView
 } from 'react-native';
 import { MaskedViewIOS } from '../../PlatformHelpers';
-import SafeAreaView from 'react-native-safe-area-view';
+
 
 import HeaderTitle from './HeaderTitle';
 import HeaderBackButton from './HeaderBackButton';

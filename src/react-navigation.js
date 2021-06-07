@@ -57,7 +57,8 @@ module.exports = {
     return require('./views/CardStack/Card').default;
   },
   get SafeAreaView() {
-    return require('react-native-safe-area-view').default;
+    const {SafeAreaView}=  require('react-native');
+    return SafeAreaView;
   },
 
   // Header

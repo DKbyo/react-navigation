@@ -6,8 +6,8 @@ import {
   View,
   Platform,
   Keyboard,
+  SafeAreaView
 } from 'react-native';
-import SafeAreaView from 'react-native-safe-area-view';
 
 import TabBarIcon from './TabBarIcon';
 import NavigationActions from '../../NavigationActions';
